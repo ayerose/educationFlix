@@ -7,18 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141E8575280F168600886AC6 /* FetchWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E8574280F168600886AC6 /* FetchWeatherData.swift */; };
+		141E8577280F24BF00886AC6 /* WeatherDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E8576280F24BF00886AC6 /* WeatherDetailsView.swift */; };
+		141E8579280F250E00886AC6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E8578280F250E00886AC6 /* WeatherModel.swift */; };
+		141E857B280F252E00886AC6 /* WeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 141E857A280F252E00886AC6 /* WeatherData.json */; };
+		141E857D280F28F900886AC6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141E857C280F28F900886AC6 /* Extension.swift */; };
+		1433DA48280EDC350067E87A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA47280EDC350067E87A /* WeatherView.swift */; };
+		1433DA4E280EE10C0067E87A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA4D280EE10C0067E87A /* LocationManager.swift */; };
+		1433DA50280EE3660067E87A /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA4F280EE3660067E87A /* ConsentView.swift */; };
+		1433DA52280EEDAD0067E87A /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433DA51280EEDAD0067E87A /* Loading.swift */; };
+		144D3FFD280826320045DE85 /* AddDeleteCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D3FFC280826320045DE85 /* AddDeleteCards.swift */; };
+		147AE467280DEE5200C1DECA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE466280DEE5200C1DECA /* LoginView.swift */; };
+		147AE46A280DEECD00C1DECA /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE469280DEECD00C1DECA /* LoginHeaderView.swift */; };
+		147AE46C280DEEE500C1DECA /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE46B280DEEE500C1DECA /* EmailView.swift */; };
+		147AE46E280DEEF900C1DECA /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE46D280DEEF900C1DECA /* PasswordView.swift */; };
+		147AE470280DEF1000C1DECA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE46F280DEF1000C1DECA /* ButtonView.swift */; };
+		147AE472280DEF2600C1DECA /* UserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AE471280DEF2600C1DECA /* UserNameView.swift */; };
+		14816D3A2808C326003B0E5D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D392808C326003B0E5D /* ImagePicker.swift */; };
+		14816D3D2808C396003B0E5D /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D3C2808C396003B0E5D /* ImageDataModel.swift */; };
+		14816D432808C424003B0E5D /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D422808C424003B0E5D /* NoteView.swift */; };
+		14816D452808C432003B0E5D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14816D442808C432003B0E5D /* MainView.swift */; };
+		148F9C37280F3A2600FAF64B /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148F9C36280F3A2600FAF64B /* WeatherRow.swift */; };
+		14CBB64F28084984005F1A2B /* ToDoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB64E28084984005F1A2B /* ToDoRow.swift */; };
+		14CBB65128084A9D005F1A2B /* AddToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65028084A9D005F1A2B /* AddToDoView.swift */; };
+		14CBB65328084D19005F1A2B /* AddBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65228084D19005F1A2B /* AddBtn.swift */; };
+		14CBB65528084EDE005F1A2B /* ToDoFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65428084EDE005F1A2B /* ToDoFinalView.swift */; };
+		14CBB6582808541D005F1A2B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBB6572808541D005F1A2B /* Realm */; };
+		14CBB65A2808541D005F1A2B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 14CBB6592808541D005F1A2B /* RealmSwift */; };
+		14CBB65C2808543A005F1A2B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65B2808543A005F1A2B /* RealmManager.swift */; };
+		14CBB65E2808552D005F1A2B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB65D2808552D005F1A2B /* Task.swift */; };
 		14D7514128020030006DFE0F /* eduFlixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7514028020030006DFE0F /* eduFlixApp.swift */; };
 		14D7514328020030006DFE0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7514228020030006DFE0F /* ContentView.swift */; };
 		14D7514528020031006DFE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7514428020031006DFE0F /* Assets.xcassets */; };
 		14D7514828020031006DFE0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D7514728020031006DFE0F /* Preview Assets.xcassets */; };
+		14DDB91A2806D3F900CC3957 /* ToDosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9192806D3F900CC3957 /* ToDosView.swift */; };
+		14DDB91C2806D40500CC3957 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB91B2806D40500CC3957 /* NotesView.swift */; };
+		14DDB91E2806D40F00CC3957 /* FlashCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB91D2806D40F00CC3957 /* FlashCardsView.swift */; };
+		14DDB9202806D42900CC3957 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB91F2806D42900CC3957 /* HomeView.swift */; };
+		14DDB9222806D44D00CC3957 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9212806D44D00CC3957 /* ProfileView.swift */; };
+		14DDB9252806D75700CC3957 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9242806D75700CC3957 /* Card.swift */; };
+		14DDB9492806FC9F00CC3957 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DDB9482806FC9F00CC3957 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141E8574280F168600886AC6 /* FetchWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWeatherData.swift; sourceTree = "<group>"; };
+		141E8576280F24BF00886AC6 /* WeatherDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsView.swift; sourceTree = "<group>"; };
+		141E8578280F250E00886AC6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		141E857A280F252E00886AC6 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
+		141E857C280F28F900886AC6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1433DA47280EDC350067E87A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		1433DA4D280EE10C0067E87A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1433DA4F280EE3660067E87A /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+		1433DA51280EEDAD0067E87A /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		144D3FFC280826320045DE85 /* AddDeleteCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeleteCards.swift; sourceTree = "<group>"; };
+		147AE466280DEE5200C1DECA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		147AE469280DEECD00C1DECA /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		147AE46B280DEEE500C1DECA /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		147AE46D280DEEF900C1DECA /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		147AE46F280DEF1000C1DECA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		147AE471280DEF2600C1DECA /* UserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameView.swift; sourceTree = "<group>"; };
+		14816D392808C326003B0E5D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		14816D3C2808C396003B0E5D /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		14816D422808C424003B0E5D /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		14816D442808C432003B0E5D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		148F9C36280F3A2600FAF64B /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		14CBB64E28084984005F1A2B /* ToDoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRow.swift; sourceTree = "<group>"; };
+		14CBB65028084A9D005F1A2B /* AddToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoView.swift; sourceTree = "<group>"; };
+		14CBB65228084D19005F1A2B /* AddBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBtn.swift; sourceTree = "<group>"; };
+		14CBB65428084EDE005F1A2B /* ToDoFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFinalView.swift; sourceTree = "<group>"; };
+		14CBB65B2808543A005F1A2B /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		14CBB65D2808552D005F1A2B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		14D7513D28020030006DFE0F /* eduFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eduFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D7514028020030006DFE0F /* eduFlixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduFlixApp.swift; sourceTree = "<group>"; };
 		14D7514228020030006DFE0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14D7514428020031006DFE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D7514728020031006DFE0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14DDB9192806D3F900CC3957 /* ToDosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosView.swift; sourceTree = "<group>"; };
+		14DDB91B2806D40500CC3957 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		14DDB91D2806D40F00CC3957 /* FlashCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsView.swift; sourceTree = "<group>"; };
+		14DDB91F2806D42900CC3957 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14DDB9212806D44D00CC3957 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		14DDB9242806D75700CC3957 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		14DDB9482806FC9F00CC3957 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +96,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CBB65A2808541D005F1A2B /* RealmSwift in Frameworks */,
+				14CBB6582808541D005F1A2B /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1433DA49280EDC450067E87A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				1433DA4A280EE0DC0067E87A /* Manager */,
+				1433DA4F280EE3660067E87A /* ConsentView.swift */,
+				1433DA51280EEDAD0067E87A /* Loading.swift */,
+				141E8574280F168600886AC6 /* FetchWeatherData.swift */,
+				141E8576280F24BF00886AC6 /* WeatherDetailsView.swift */,
+				141E857C280F28F900886AC6 /* Extension.swift */,
+				148F9C36280F3A2600FAF64B /* WeatherRow.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		1433DA4A280EE0DC0067E87A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1433DA4D280EE10C0067E87A /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		147AE468280DEEAF00C1DECA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				147AE469280DEECD00C1DECA /* LoginHeaderView.swift */,
+				147AE46B280DEEE500C1DECA /* EmailView.swift */,
+				147AE46D280DEEF900C1DECA /* PasswordView.swift */,
+				147AE46F280DEF1000C1DECA /* ButtonView.swift */,
+				147AE471280DEF2600C1DECA /* UserNameView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		14816D372808C2EB003B0E5D /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				14816D3B2808C376003B0E5D /* ImageData */,
+				14816D382808C2FE003B0E5D /* ImagePicker */,
+				14816D422808C424003B0E5D /* NoteView.swift */,
+				14816D442808C432003B0E5D /* MainView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		14816D382808C2FE003B0E5D /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				14816D392808C326003B0E5D /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		14816D3B2808C376003B0E5D /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				14816D3C2808C396003B0E5D /* ImageDataModel.swift */,
+			);
+			path = ImageData;
+			sourceTree = "<group>";
+		};
+		14CBB64D28084969005F1A2B /* ToDoModel */ = {
+			isa = PBXGroup;
+			children = (
+				14DDB9192806D3F900CC3957 /* ToDosView.swift */,
+				14CBB64E28084984005F1A2B /* ToDoRow.swift */,
+				14CBB65028084A9D005F1A2B /* AddToDoView.swift */,
+				14CBB65228084D19005F1A2B /* AddBtn.swift */,
+				14CBB65B2808543A005F1A2B /* RealmManager.swift */,
+				14CBB65D2808552D005F1A2B /* Task.swift */,
+			);
+			path = ToDoModel;
+			sourceTree = "<group>";
+		};
 		14D7513428020030006DFE0F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +197,13 @@
 		14D7513F28020030006DFE0F /* eduFlix */ = {
 			isa = PBXGroup;
 			children = (
+				1433DA49280EDC450067E87A /* Weather */,
+				147AE468280DEEAF00C1DECA /* Login */,
+				14816D372808C2EB003B0E5D /* Notes */,
+				14CBB64D28084969005F1A2B /* ToDoModel */,
+				14DDB9472806FC5600CC3957 /* Views */,
+				14DDB9232806D74A00CC3957 /* Flashcards */,
 				14D7514028020030006DFE0F /* eduFlixApp.swift */,
-				14D7514228020030006DFE0F /* ContentView.swift */,
 				14D7514428020031006DFE0F /* Assets.xcassets */,
 				14D7514628020031006DFE0F /* Preview Content */,
 			);
@@ -63,8 +214,35 @@
 			isa = PBXGroup;
 			children = (
 				14D7514728020031006DFE0F /* Preview Assets.xcassets */,
+				141E8578280F250E00886AC6 /* WeatherModel.swift */,
+				141E857A280F252E00886AC6 /* WeatherData.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14DDB9232806D74A00CC3957 /* Flashcards */ = {
+			isa = PBXGroup;
+			children = (
+				14DDB91D2806D40F00CC3957 /* FlashCardsView.swift */,
+				14DDB9242806D75700CC3957 /* Card.swift */,
+				144D3FFC280826320045DE85 /* AddDeleteCards.swift */,
+			);
+			path = Flashcards;
+			sourceTree = "<group>";
+		};
+		14DDB9472806FC5600CC3957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14D7514228020030006DFE0F /* ContentView.swift */,
+				14DDB91F2806D42900CC3957 /* HomeView.swift */,
+				14DDB9212806D44D00CC3957 /* ProfileView.swift */,
+				14DDB91B2806D40500CC3957 /* NotesView.swift */,
+				14DDB9482806FC9F00CC3957 /* AppView.swift */,
+				14CBB65428084EDE005F1A2B /* ToDoFinalView.swift */,
+				147AE466280DEE5200C1DECA /* LoginView.swift */,
+				1433DA47280EDC350067E87A /* WeatherView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +261,10 @@
 			dependencies = (
 			);
 			name = eduFlix;
+			packageProductDependencies = (
+				14CBB6572808541D005F1A2B /* Realm */,
+				14CBB6592808541D005F1A2B /* RealmSwift */,
+			);
 			productName = eduFlix;
 			productReference = 14D7513D28020030006DFE0F /* eduFlix.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +293,9 @@
 				Base,
 			);
 			mainGroup = 14D7513428020030006DFE0F;
+			packageReferences = (
+				14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 14D7513E28020030006DFE0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141E857B280F252E00886AC6 /* WeatherData.json in Resources */,
 				14D7514828020031006DFE0F /* Preview Assets.xcassets in Resources */,
 				14D7514528020031006DFE0F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +323,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141E8575280F168600886AC6 /* FetchWeatherData.swift in Sources */,
+				14DDB91A2806D3F900CC3957 /* ToDosView.swift in Sources */,
+				14CBB65328084D19005F1A2B /* AddBtn.swift in Sources */,
+				147AE470280DEF1000C1DECA /* ButtonView.swift in Sources */,
+				141E8577280F24BF00886AC6 /* WeatherDetailsView.swift in Sources */,
+				14CBB65C2808543A005F1A2B /* RealmManager.swift in Sources */,
+				147AE46A280DEECD00C1DECA /* LoginHeaderView.swift in Sources */,
+				14816D3A2808C326003B0E5D /* ImagePicker.swift in Sources */,
+				1433DA50280EE3660067E87A /* ConsentView.swift in Sources */,
+				1433DA48280EDC350067E87A /* WeatherView.swift in Sources */,
+				141E8579280F250E00886AC6 /* WeatherModel.swift in Sources */,
 				14D7514328020030006DFE0F /* ContentView.swift in Sources */,
+				14CBB65128084A9D005F1A2B /* AddToDoView.swift in Sources */,
+				14DDB9492806FC9F00CC3957 /* AppView.swift in Sources */,
+				14DDB91C2806D40500CC3957 /* NotesView.swift in Sources */,
+				147AE46C280DEEE500C1DECA /* EmailView.swift in Sources */,
+				144D3FFD280826320045DE85 /* AddDeleteCards.swift in Sources */,
+				14CBB65E2808552D005F1A2B /* Task.swift in Sources */,
+				14CBB64F28084984005F1A2B /* ToDoRow.swift in Sources */,
+				14DDB9202806D42900CC3957 /* HomeView.swift in Sources */,
+				14816D432808C424003B0E5D /* NoteView.swift in Sources */,
+				147AE472280DEF2600C1DECA /* UserNameView.swift in Sources */,
+				14816D452808C432003B0E5D /* MainView.swift in Sources */,
+				14DDB91E2806D40F00CC3957 /* FlashCardsView.swift in Sources */,
+				147AE467280DEE5200C1DECA /* LoginView.swift in Sources */,
+				1433DA52280EEDAD0067E87A /* Loading.swift in Sources */,
+				14816D3D2808C396003B0E5D /* ImageDataModel.swift in Sources */,
+				141E857D280F28F900886AC6 /* Extension.swift in Sources */,
+				147AE46E280DEEF900C1DECA /* PasswordView.swift in Sources */,
+				14DDB9222806D44D00CC3957 /* ProfileView.swift in Sources */,
+				148F9C37280F3A2600FAF64B /* WeatherRow.swift in Sources */,
+				1433DA4E280EE10C0067E87A /* LocationManager.swift in Sources */,
 				14D7514128020030006DFE0F /* eduFlixApp.swift in Sources */,
+				14DDB9252806D75700CC3957 /* Card.swift in Sources */,
+				14CBB65528084EDE005F1A2B /* ToDoFinalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +560,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14CBB6572808541D005F1A2B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		14CBB6592808541D005F1A2B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14CBB6562808541D005F1A2B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14D7513528020030006DFE0F /* Project object */;
 }
